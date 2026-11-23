@@ -7,7 +7,7 @@ import type { RobotState } from "./types.ts"
 
 const GUIDE_URL = "https://github.com/dimensionalOS/dimos/blob/main/docs/platforms/humanoid/g1/index.md"
 const INSTALL_DESKTOP =
-    "curl -fsSL https://raw.githubusercontent.com/jeff-hykin/dimos-desktop-mirror/main/install.sh | bash"
+    "curl -fsSL https://raw.githubusercontent.com/dimensionalOS/dimos-desktop-releases/main/install.sh | bash"
 
 type Platform = { jetson: boolean }
 
